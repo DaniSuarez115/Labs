@@ -59,4 +59,34 @@
   .active{
     background-color: #71747368;
   }
+
+
+.bodySection{
+    background-color: #444;
+    width: 35%;
+    display: inline;
+    height: 500px;
+    float: left;
+    font-family: 'Delicious Handrawn',cursive;
+    color: #FFF;
+}
+.bodySection h2{
+   background-color: #777;
+   margin-top: auto;
+   height: 45px;
+}
+.bandSection{
+    background-color: #777;
+    display: inline;
+    width: 64%;
+    height: 500px;
+    float: right; 
+}
+.bandSection h2{
+background-color: #444;
+margin-top: auto;
+height: 45px;
+font-family: 'Delicious Handrawn',cursive;
+color: #FFF;
+}
   
