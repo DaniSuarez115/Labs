@@ -84,6 +84,7 @@
     width: 64%;
     height: 500px;
     float: right; 
+    margin-top: auto;
   
 }
 .bandSection h2{
@@ -159,6 +160,7 @@ margin-top: -18px;
     width: 50%;
     display: inline;
     float: left;
+    border: solid #888;
 }
 .logo img{
     width: 100%;
@@ -181,5 +183,11 @@ color: #FFF;
     float: right;
     font-family: 'Delicious Handrawn',cursive;
     color: #FFF;
-    border: solid #888;
+    height: 158px;
 }
+.bandSection h2:hover{
+    font-size: 35px;
+    transition: 2s;
+    color: #F11;
+}
+
