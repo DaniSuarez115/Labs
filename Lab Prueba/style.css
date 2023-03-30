@@ -112,7 +112,7 @@ display: none;
     display: block;
     height: auto;
     max-width: 100%;
-    min-height: 400px;
+    min-height: 500px;
    
 }
 .slide-control {
@@ -309,6 +309,59 @@ border: #555;
   text-align: center;
   margin: 10px;
 }
+<<<<<<< HEAD
+
+
+
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 4.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.imagetarget
+{
+  width:600px; 
+  height:400px;
+=======
 .parrafoNoti{
   width: 90%;
   height: 130px;
@@ -318,4 +371,5 @@ border: #555;
 }
 img {
   float: right;
+>>>>>>> 2170f114ddf253444e791e04ebbd2445f5a99ef5
 }
