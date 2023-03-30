@@ -158,7 +158,6 @@ ul.topnav li.right {float: right;}
   width: 10px;
   height: 10px;
 }
-<<<<<<< HEAD
 .nav__header{
   background-color: #888;
 }
@@ -261,7 +260,6 @@ border: #555;
 
 
 
-=======
 .texto{
   text-align: center;
   size: 5px; ;
@@ -270,4 +268,13 @@ border: #555;
   text-align: center;
   margin: 10px;
 }
->>>>>>> f3ed0486e9b3a171f78662c9040875fe5cbeb115
+.parrafoNoti{
+  width: 90%;
+  height: 130px;
+  margin-left: 9px;
+  text-align: center;
+  border: solid #0e0591;
+}
+img {
+  float: right;
+}
