@@ -4,7 +4,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #06314f;
+    background-color: #ffffff;
   }
   ul.topnav li {float: left;}
 ul {
@@ -21,7 +21,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  ul.topnav li a:hover:not(.active) {background-color: #7d7979;}
   li {
     float: left;
   }
