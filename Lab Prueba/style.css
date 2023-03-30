@@ -158,108 +158,6 @@ ul.topnav li.right {float: right;}
   width: 10px;
   height: 10px;
 }
-.nav__header{
-  background-color: #888;
-}
-.nav__ContainerGame{
-  background-color: #aaaaaa;
-  width: 48%;
-  height: 390px;
-  float: left;
-  margin-left: 3px;
-  text-align: center;
-  border: solid #555;
-  color: #fff;
-}
-.nav__ContainerBand{
-  float: right;
-  background-color: #828282;
-  width: 47%;
-  height: 390px;
-  margin-right: 3px;
-  text-align: center;
-  color: #fff;
-  border: solid #555;
-}
-.nav__ContainerDescription{
-  background-color: #7a7777;
-  height: 265px;
-  margin-top: 3px;
-  float: left;
-  width: 99%;
-  margin-right: 3px;
-  margin-left: 3px;
-}
-.nav__ContainerVideo frame{
-  width: 100%;
-  height: 100%;
-}
-h2{
-  text-align: center;
-}
-.nav__ContainerParrafoGame{
- 
-  width: 90%;
-  height: 130px;
-  margin-left: 9px;
-  text-align: center;
-  border: solid #555;
-}
-.nav__ContainerImg{
-  height: 60%;
-  width: 90%;
-}
-.nav__ContainerImg img{
-  width: 100%;
-  height: 80%;
-  margin-left: 9px;
-  margin-top: 3px;
-}
-.nav__ContainerDescription-img{
-width: 50%;
-height: 60%;
-border: solid #555;
-background-color: #888;
-margin-top: auto;
-color: #FFF;
-}
-.nav__ContainerDescription-img img{
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  margin-top: auto;
-}
-.nav__ContainerParrafoBanda{
- display: block;
- float: right;
- width: 47%;
- height: 249px;
- border: solid #555;
- margin-top: -150px;
-}
-.nav__ContainerParrafoBanda img{
-width: 90%;
-height: 90%;
-margin-left: 5px;
-border: #555;
-}
-.nav__parrafo{
-  background-color: #888;
-  height: 100px;
-  color: #FFF;
-  margin-top: auto;
-  width: 50%;
-  border: solid #555;
-}
-.nav__parrafo .nav_parrafo-item{
-  margin-top: auto;
-  color: #FFF;
-  margin-left: 4px;
-}
-
-
-
-
 .texto{
   text-align: center;
   size: 5px; ;
@@ -267,8 +165,8 @@ border: #555;
 .parrafo{
   text-align: center;
   margin: 10px;
+  padding: 6px;
 }
-<<<<<<< HEAD
 
 
 
@@ -315,20 +213,38 @@ div.desc {
     width: 100%;
   }
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-.imagetarget
-{
+.imagetarget{
   width:600px; 
   height:400px;
-=======
-.parrafoNoti{
-  width: 90%;
-  height: 130px;
-  margin-left: 9px;
-  text-align: center;
-  border: solid #0e0591;
 }
-img {
-  float: right;
->>>>>>> 2170f114ddf253444e791e04ebbd2445f5a99ef5
+.imagenoticia{
+  width:100%; 
+  height:auto;
+}
+
+.botom{
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: red;
+  
+}
+.footer
+{
+  background-color: rgba(105, 105, 105, 0.319);
+  text-align:left;
+  height: 35px;
+}
+.icon
+{
+  width: 30px;
+  height: auto;
 }
