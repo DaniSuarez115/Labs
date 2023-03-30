@@ -12,7 +12,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #040303;
+    background-color: #ffffff;
   }
   ul.topnav li a {
     display: block;
@@ -21,7 +21,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  ul.topnav li a:hover:not(.active) {background-color: #5a7bfd;}
+  ul.topnav li a:hover:not(.active) {background-color: #625858;}
   li {
     float: left;
   }
@@ -33,7 +33,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  ul.topnav li a.active {background-color: #ffffff;}
+  ul.topnav li a.active {background-color: #c2c6c4;}
 
 ul.topnav li.right {float: right;}
   li a:hover {
@@ -101,7 +101,7 @@ ul.topnav li.right {float: right;}
 }
 .slide-control:hover {
     background: rgba(0, 0, 0, 0.8);
-    color: #f4f4f4;
+    color: #aaaaaa;
 }
 #slide-1:checked ~ .control-1,
 #slide-2:checked ~ .control-2,
@@ -110,13 +110,13 @@ ul.topnav li.right {float: right;}
 }
 
 .slide-circulo {
-    color: #6c3838;
+    color: #828282;
     cursor: pointer;
     display: block;
     font-size: 35px;
 }
 .slide-circulo:hover {
-    color: #4e2626;
+    color: #aaaaaa;
 }
 #slide-1:checked ~ .control-1 
      li:nth-child(1) .slide-circulo,
@@ -137,12 +137,11 @@ ul.topnav li.right {float: right;}
     font-family: 'Open Sans', sans-serif;
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
-         -1px 0px 2px rgba(83, 36, 36, 0);
+         -1px 0px 2px rgba(255, 255, 255, 0);
 }
 .icono{
   margin: 0;
-  width: 40px;
-  ;
+  width: 50px;
 }
 .header{
   
@@ -150,124 +149,12 @@ ul.topnav li.right {float: right;}
   background-color: #faf9ff;
 }
 .footer{
-  background-color: #72adcfca;
+  background-color: #c7ced2ca;
   width: 100%;
   height: 100px;
+
 }
 .iconomov{
   width: 10px;
   height: 10px;
 }
-<<<<<<< HEAD
-.nav__header{
-  background-color: #888;
-}
-.nav__ContainerGame{
-  background-color: #aaaaaa;
-  width: 48%;
-  height: 390px;
-  float: left;
-  margin-left: 3px;
-  text-align: center;
-  border: solid #555;
-  color: #fff;
-}
-.nav__ContainerBand{
-  float: right;
-  background-color: #828282;
-  width: 47%;
-  height: 390px;
-  margin-right: 3px;
-  text-align: center;
-  color: #fff;
-  border: solid #555;
-}
-.nav__ContainerDescription{
-  background-color: #7a7777;
-  height: 265px;
-  margin-top: 3px;
-  float: left;
-  width: 99%;
-  margin-right: 3px;
-  margin-left: 3px;
-}
-.nav__ContainerVideo frame{
-  width: 100%;
-  height: 100%;
-}
-h2{
-  text-align: center;
-}
-.nav__ContainerParrafoGame{
- 
-  width: 90%;
-  height: 130px;
-  margin-left: 9px;
-  text-align: center;
-  border: solid #555;
-}
-.nav__ContainerImg{
-  height: 60%;
-  width: 90%;
-}
-.nav__ContainerImg img{
-  width: 100%;
-  height: 80%;
-  margin-left: 9px;
-  margin-top: 3px;
-}
-.nav__ContainerDescription-img{
-width: 50%;
-height: 60%;
-border: solid #555;
-background-color: #888;
-margin-top: auto;
-color: #FFF;
-}
-.nav__ContainerDescription-img img{
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  margin-top: auto;
-}
-.nav__ContainerParrafoBanda{
- display: block;
- float: right;
- width: 47%;
- height: 249px;
- border: solid #555;
- margin-top: -150px;
-}
-.nav__ContainerParrafoBanda img{
-width: 90%;
-height: 90%;
-margin-left: 5px;
-border: #555;
-}
-.nav__parrafo{
-  background-color: #888;
-  height: 100px;
-  color: #FFF;
-  margin-top: auto;
-  width: 50%;
-  border: solid #555;
-}
-.nav__parrafo .nav_parrafo-item{
-  margin-top: auto;
-  color: #FFF;
-  margin-left: 4px;
-}
-
-
-
-
-=======
-.texto{
-  text-align: center;
-  size: 5px; ;
-}
-.parrafo{
-  text-align: center;
-  margin: 10px;
-}
->>>>>>> f3ed0486e9b3a171f78662c9040875fe5cbeb115
