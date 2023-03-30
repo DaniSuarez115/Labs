@@ -55,21 +55,22 @@ display: none;
   display: none;
 }
 .nav_zombies{
-  background-color: #555;
+  background-color: #fff;
   width: 40%;
   height: 530px;
   margin-left: 15px;
-  border: solid #555;
+  border: solid #fff;
   display: inline-block;
 }
 .nav_zombies h2{
-  background-color: #888;
+  background-color: #fff;
   margin-top: auto;
-  border: solid #333;
+  border: solid #fff;
+  text-align: center;
 }
 
 .nav__Banda{
-  background-color: #888;
+  background-color: #fff;
   width: 55%;
   float: right;
   height: 530px;
@@ -81,18 +82,18 @@ display: none;
   margin-left: 6px;
   height: 35%;
   width: 360px;
-  border: solid #333;
+  border: solid #fff;
   margin-bottom: 4px;
-  color: #fFF;
+  color: #000;
   
 }
 .nav__Video{
-  background-color: #F00;
+  background-color: #fff;
   width: 360px;
   height: 270px;
   margin-top: auto;
   margin-left: 6px;
-  border: solid #333;
+  border: solid #fff;
 }
 .nav__Video iframe{
   width: 100%;
@@ -103,37 +104,35 @@ display: none;
   height: 250px;
   display: inline-block;
   margin-left: 5px;
-  border: solid #555;
+  border: solid #fff;
 }
 .nav__ParrafoLogo{
-  background-color: #222;
+  background-color: #fff;
   float: right;
   width: 50%;
   height: 250px;
-  border: solid #555;
-  font-family: 'Delicious Handrawn',cursive;
-  color: #fff;
+  border: solid #fff;
+  color: #000;
   font-size: large;
   
 }
 .nav__ParrafoLogo p{
   margin-left: 6px;
+  margin-top: 6px;
 }
 .nav__ParrafoBanda{
-  background-color: #444;
+  background-color: #FFF;
   margin-top: 3px;
-  border: solid #555;
+  border: solid #FFF;
   height: 250px;
-  font-family: 'Delicious Handrawn',cursive;
-  color: #FFF;
+  color: #000;
   font-size: large;
 }
 .nav__zombies__parrafo{
-  background-color: #222;
+  background-color: #FFF;
 }
 .nav__zombies__parrafo p{
-  font-family: 'Delicious Handrawn',cursive;
-  font-size: x-large;
+  font-size:15px;
   margin-left: 3px;
 }
 .nav__logo img{
@@ -145,19 +144,21 @@ display: none;
     ul.topnav li {float: none;}
   }
    @media(max-width:500px){
+    .nav_parrafo-item{
+      margin-top: auto;
+    }
     .nav_zombies{
       display: none;
     }
     .nav_zombies h2{
       display: none;
     }
-    
-    .nav__Banda{
+    .nav__zombies__parrafo
+    {
       display: none;
     }
-    .nav__zombies__parrafo{
+    .nav__Banda{
       display: none;
-      
     }
     .nav__Video{
       display: none;
@@ -186,8 +187,111 @@ display: none;
     .nav__logo img{
       display: none;
     }
-
+.nav__ContainerParrafo
+{
+  color: #000;
+}
+    .nav__ContainerGame{
+      background-color: #FFF;
+      width: 48%;
+      height: 390px;
+      float: left;
+      margin-left: 3px;
+      text-align: center;
+      border: solid #FFF;
+      color: #fff;
+    }
+    .nav__ContainerBand{
+      float: right;
+      background-color: #FFF;
+      width: 47%;
+      height: 390px;
+      margin-right: 3px;
+      text-align: center;
+      color: #000;
+      border: solid #FFF;
+    }
+    .nav__ContainerDescription{
+      background-color: #FFF;
+      height: 265px;
+      margin-top: 3px;
+      float: left;
+      width: 99%;
+      margin-right: 3px;
+      margin-left: 3px;
+    }
+    .nav__ContainerVideo frame{
+      width: 100%;
+      height: 100%;
+    }
+    h2{
+      text-align: center;
+    }
+    .nav__ContainerParrafoGame{
+     
+      width: 90%;
+      height: 130px;
+      margin-left: 9px;
+      text-align: center;
+      border: solid #FFF;
+    }
+    .nav__ContainerImg{
+      height: 60%;
+      width: 90%;
+    }
+    .nav__ContainerImg img{
+      width: 100%;
+      height: 80%;
+      margin-left: 9px;
+      margin-top: 3px;
+    }
+    .nav__ContainerDescription-img{
+    width: 50%;
+    height: 60%;
+    border: solid #FFF;
+    background-color: #FFF;
+    margin-top: auto;
+    color: #FFF;
+    }
+    .nav__ContainerDescription-img img{
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      margin-top: auto;
+    }
+    .nav__ContainerParrafoBanda{
+     display: block;
+     float: left;
+     width: 100%;
+     height: 249px;
+     border: solid #FFF;
+     margin-top: -150px;
+     background-color: #040303;
     
+    }
+    .nav__ContainerParrafoBanda img{
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    border: #FFF;
+    }
+    .nav__parrafo{
+      background-color: #FFF;
+      height: 100px;
+      color: #000;
+      margin-top: auto;
+      width: 50%;
+      border: solid #FFF;
+    }
+    .nav__parrafo .nav_parrafo-item{
+      margin-top: auto;
+      color: #0f0f0f;
+      margin-left: 4px;
+    }
+h3{
+  color: #000;
+}
+
     .nav__ContainerDescription{
       display: block;
     }
@@ -196,6 +300,8 @@ display: none;
     }
     .nav__ContainerImg{
       display: block;
+      font-size: 14PX;
+      color: #000;
     }
     .nav__ContainerGame {
     display: block;
@@ -319,105 +425,6 @@ display: none;
 .nav__header{
   background-color: #888;
 }
-.nav__ContainerGame{
-  background-color: #aaaaaa;
-  width: 48%;
-  height: 390px;
-  float: left;
-  margin-left: 3px;
-  text-align: center;
-  border: solid #555;
-  color: #fff;
-}
-.nav__ContainerBand{
-  float: right;
-  background-color: #828282;
-  width: 47%;
-  height: 390px;
-  margin-right: 3px;
-  text-align: center;
-  color: #fff;
-  border: solid #555;
-}
-.nav__ContainerDescription{
-  background-color: #7a7777;
-  height: 265px;
-  margin-top: 3px;
-  float: left;
-  width: 99%;
-  margin-right: 3px;
-  margin-left: 3px;
-}
-.nav__ContainerVideo frame{
-  width: 100%;
-  height: 100%;
-}
-h2{
-  text-align: center;
-}
-.nav__ContainerParrafoGame{
- 
-  width: 90%;
-  height: 130px;
-  margin-left: 9px;
-  text-align: center;
-  border: solid #555;
-}
-.nav__ContainerImg{
-  height: 60%;
-  width: 90%;
-}
-.nav__ContainerImg img{
-  width: 100%;
-  height: 80%;
-  margin-left: 9px;
-  margin-top: 3px;
-}
-.nav__ContainerDescription-img{
-width: 50%;
-height: 60%;
-border: solid #555;
-background-color: #888;
-margin-top: auto;
-color: #FFF;
-}
-.nav__ContainerDescription-img img{
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  margin-top: auto;
-}
-.nav__ContainerParrafoBanda{
- display: block;
- float: right;
- width: 47%;
- height: 249px;
- border: solid #555;
- margin-top: -150px;
-}
-.nav__ContainerParrafoBanda img{
-width: 90%;
-height: 90%;
-margin-left: 5px;
-border: #555;
-}
-.nav__parrafo{
-  background-color: #888;
-  height: 100px;
-  color: #FFF;
-  margin-top: auto;
-  width: 50%;
-  border: solid #555;
-}
-.nav__parrafo .nav_parrafo-item{
-  margin-top: auto;
-  color: #FFF;
-  margin-left: 4px;
-}
-
-
-
-
 .texto{
   text-align: center;
   size: 5px; ;
