@@ -144,6 +144,14 @@ display: none;
     ul.topnav li {float: none;}
   }
    @media(max-width:500px){
+    .nav__portada{
+      background-color: #428bca;
+      height: 380px;
+    }
+    .nav__portada img{
+      height: 100%;
+      width: 100%;
+    }
     .nav_parrafo-item{
       margin-top: auto;
     }
@@ -262,7 +270,7 @@ display: none;
     .nav__ContainerParrafoBanda{
      display: block;
      float: left;
-     width: 100%;
+     width: 70%;
      height: 249px;
      border: solid #FFF;
      margin-top: -150px;
@@ -308,6 +316,9 @@ h3{
     }
     .nav__ContainerBand{
       display: block;
+    }
+    .nav__logo{
+      display: none;
     }
    }
   .slide {
@@ -423,7 +434,7 @@ h3{
   height: 10px;
 }
 .nav__header{
-  background-color: #888;
+  background-color: #FFF;
 }
 <<<<<<< Updated upstream
 =======
@@ -445,10 +456,10 @@ h3{
   margin-right: 3px;
   text-align: center;
   color: #fff;
-  border: solid #555;
+  border: solid #fff;
 }
 .nav__ContainerDescription{
-  background-color: #7a7777;
+  background-color: #fff;
   height: 270px;
   margin-top: 3px;
   float: left;
@@ -469,7 +480,7 @@ h2{
   height: 130px;
   margin-left: 9px;
   text-align: center;
-  border: solid #555;
+  border: solid #fff;
 }
 .nav__ContainerImg{
   height: 60%;
@@ -484,10 +495,10 @@ h2{
 .nav__ContainerDescription-img{
 width: 50%;
 height: 60%;
-border: solid #555;
-background-color: #888;
+border: solid #fff;
+background-color: #fff;
 margin-top: auto;
-color: #FFF;
+color: #000;
 }
 .nav__ContainerDescription-img img{
   width: 100%;
@@ -500,14 +511,14 @@ color: #FFF;
  float: right;
  width: 47%;
  height: 249px;
- border: solid #555;
+ border: solid #fff;
  margin-top: -150px;
 }
 .nav__ContainerParrafoBanda img{
 width: 90%;
 height: 90%;
 margin-left: 5px;
-border: #555;
+border: #fff;
 }
 .nav__parrafo{
   background-color: #888;
@@ -515,11 +526,11 @@ border: #555;
   color: #FFF;
   margin-top: auto;
   width: 50%;
-  border: solid #555;
+  border: solid #fff;
 }
 .nav__parrafo .nav_parrafo-item{
   margin-top: auto;
-  color: #FFF;
+  color: #000;
   margin-left: 4px;
 }
 
