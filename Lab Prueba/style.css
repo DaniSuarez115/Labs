@@ -112,6 +112,7 @@ display: none;
   height: 250px;
   color: #000;
   font-size: large;
+  margin-bottom: 6px;
   
 }
 .nav__ParrafoLogo p{
@@ -125,10 +126,10 @@ display: none;
   font-size: large;
 }
 .nav__zombies__parrafo{
-  background-color: #222;
+  background-color: #fff;
+  color: #000;
 }
 .nav__zombies__parrafo p{
-  font-family: 'Delicious Handrawn',cursive;
   font-size: x-large;
   margin-left: 3px;
 }
