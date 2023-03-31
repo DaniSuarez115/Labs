@@ -39,12 +39,288 @@ ul.topnav li.right {float: right;}
   li a:hover {
     background-color: #111;
   }
+.nav__ContainerDescription{
+  display: none;
+}
+.nav__ContainerParrafo{
+  display: none;
+}
+.nav__ContainerImg{
+  display: none;
+}
+.nav__ContainerGame {
+display: none;
+}
+.nav__ContainerBand{
+  display: none;
+}
+.nav_zombies{
+  background-color: #fff;
+  width: 40%;
+  height: 530px;
+  margin-left: 15px;
+  border: solid #fff;
+  display: inline-block;
+}
+.nav_zombies h2{
+  background-color: #fff;
+  margin-top: auto;
+  border: solid #fff;
+  text-align: center;
+}
 
+.nav__Banda{
+  background-color: #fff;
+  width: 55%;
+  float: right;
+  height: 530px;
+  margin-right: 3px;
+  margin-left: 5px;
+}
+.nav__zombies__parrafo{
+  margin-top: auto;
+  margin-left: 6px;
+  height: 35%;
+  width: 360px;
+  border: solid #fff;
+  margin-bottom: 4px;
+  color: #000;
+  
+}
+.nav__Video{
+  background-color: #fff;
+  width: 360px;
+  height: 270px;
+  margin-top: auto;
+  margin-left: 6px;
+  border: solid #fff;
+}
+.nav__Video iframe{
+  width: 100%;
+  height: 100%;
+}
+.nav__logo{
+  width: 48%;
+  height: 250px;
+  display: inline-block;
+  margin-left: 5px;
+  border: solid #fff;
+}
+.nav__ParrafoLogo{
+  background-color: #fff;
+  float: right;
+  width: 50%;
+  height: 250px;
+  border: solid #fff;
+  color: #000;
+  font-size: large;
+  
+}
+.nav__ParrafoLogo p{
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.nav__ParrafoBanda{
+  background-color: #FFF;
+  margin-top: 3px;
+  border: solid #FFF;
+  height: 250px;
+  color: #000;
+  font-size: large;
+}
+.nav__zombies__parrafo{
+  background-color: #FFF;
+}
+.nav__zombies__parrafo p{
+  font-size:15px;
+  margin-left: 3px;
+}
+.nav__logo img{
+  width: 100%;
+  height: 100%;
+}
   @media screen and (max-width: 600px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
   }
+   @media(max-width:500px){
+    .nav__portada{
+      background-color: #428bca;
+      height: 380px;
+    }
+    .nav__portada img{
+      height: 100%;
+      width: 100%;
+    }
+    .nav_parrafo-item{
+      margin-top: auto;
+    }
+    .nav_zombies{
+      display: none;
+    }
+    .nav_zombies h2{
+      display: none;
+    }
+    .nav__zombies__parrafo
+    {
+      display: none;
+    }
+    .nav__Banda{
+      display: none;
+    }
+    .nav__Video{
+      display: none;
+    }
+    .nav__Video iframe{
+      display: none;
+    }
+    .nav__logo{
+      display: none;
+    }
+    .nav__ParrafoLogo{
+      display: none; 
+    }
+    .nav__ParrafoLogo p{
+      display: none;
+    }
+    .nav__ParrafoBanda{
+      display: none;
+    }
+    .nav__zombies__parrafo{
+      display: none;
+    }
+    .nav__zombies__parrafo p{
+      display: none;
+    }
+    .nav__logo img{
+      display: none;
+    }
+.nav__ContainerParrafo
+{
+  color: #000;
+}
+    .nav__ContainerGame{
+      background-color: #FFF;
+      width: 48%;
+      height: 390px;
+      float: left;
+      margin-left: 3px;
+      text-align: center;
+      border: solid #FFF;
+      color: #fff;
+    }
+    .nav__ContainerBand{
+      float: right;
+      background-color: #FFF;
+      width: 47%;
+      height: 390px;
+      margin-right: 3px;
+      text-align: center;
+      color: #000;
+      border: solid #FFF;
+    }
+    .nav__ContainerDescription{
+      background-color: #FFF;
+      height: 265px;
+      margin-top: 3px;
+      float: left;
+      width: 99%;
+      margin-right: 3px;
+      margin-left: 3px;
+    }
+    .nav__ContainerVideo frame{
+      width: 100%;
+      height: 100%;
+    }
+    h2{
+      text-align: center;
+    }
+    .nav__ContainerParrafoGame{
+     
+      width: 90%;
+      height: 130px;
+      margin-left: 9px;
+      text-align: center;
+      border: solid #FFF;
+    }
+    .nav__ContainerImg{
+      height: 60%;
+      width: 90%;
+    }
+    .nav__ContainerImg img{
+      width: 100%;
+      height: 80%;
+      margin-left: 9px;
+      margin-top: 3px;
+    }
+    .nav__ContainerDescription-img{
+    width: 50%;
+    height: 60%;
+    border: solid #FFF;
+    background-color: #FFF;
+    margin-top: auto;
+    color: #FFF;
+    }
+    .nav__ContainerDescription-img img{
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      margin-top: auto;
+    }
+    .nav__ContainerParrafoBanda{
+     display: block;
+     float: left;
+     width: 70%;
+     height: 249px;
+     border: solid #FFF;
+     margin-top: -150px;
+     background-color: #040303;
+    
+    }
+    .nav__ContainerParrafoBanda img{
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    border: #FFF;
+    }
+    .nav__parrafo{
+      background-color: #FFF;
+      height: 100px;
+      color: #000;
+      margin-top: auto;
+      width: 50%;
+      border: solid #FFF;
+    }
+    .nav__parrafo .nav_parrafo-item{
+      margin-top: auto;
+      color: #0f0f0f;
+      margin-left: 4px;
+    }
+h3{
+  color: #000;
+}
 
+    .nav__ContainerDescription{
+      display: block;
+    }
+    .nav__ContainerParrafo{
+      display: block;
+    }
+    .nav__ContainerImg{
+      display: block;
+      font-size: 14PX;
+      color: #000;
+    }
+    .nav__ContainerGame {
+    display: block;
+    }
+    .nav__ContainerBand{
+      display: block;
+    }
+    .nav__logo{
+      display: none;
+    }
+   }
   .slide {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -71,7 +347,7 @@ ul.topnav li.right {float: right;}
     display: block;
     height: auto;
     max-width: 100%;
-    min-height: 400px;
+    min-height: 500px;
    
 }
 .slide-control {
@@ -142,7 +418,6 @@ ul.topnav li.right {float: right;}
 .icono{
   margin: 0;
   width: 40px;
-  ;
 }
 .header{
   
@@ -159,8 +434,10 @@ ul.topnav li.right {float: right;}
   height: 10px;
 }
 .nav__header{
-  background-color: #888;
+  background-color: #FFF;
 }
+<<<<<<< Updated upstream
+=======
 .nav__ContainerGame{
   background-color: #aaaaaa;
   width: 48%;
@@ -173,17 +450,17 @@ ul.topnav li.right {float: right;}
 }
 .nav__ContainerBand{
   float: right;
-  background-color: #828282;
+  background-color: #FFF;
   width: 47%;
   height: 390px;
   margin-right: 3px;
   text-align: center;
   color: #fff;
-  border: solid #555;
+  border: solid #fff;
 }
 .nav__ContainerDescription{
-  background-color: #7a7777;
-  height: 265px;
+  background-color: #fff;
+  height: 270px;
   margin-top: 3px;
   float: left;
   width: 99%;
@@ -203,7 +480,7 @@ h2{
   height: 130px;
   margin-left: 9px;
   text-align: center;
-  border: solid #555;
+  border: solid #fff;
 }
 .nav__ContainerImg{
   height: 60%;
@@ -218,10 +495,10 @@ h2{
 .nav__ContainerDescription-img{
 width: 50%;
 height: 60%;
-border: solid #555;
-background-color: #888;
+border: solid #fff;
+background-color: #fff;
 margin-top: auto;
-color: #FFF;
+color: #000;
 }
 .nav__ContainerDescription-img img{
   width: 100%;
@@ -234,32 +511,34 @@ color: #FFF;
  float: right;
  width: 47%;
  height: 249px;
- border: solid #555;
+ border: solid #fff;
  margin-top: -150px;
 }
 .nav__ContainerParrafoBanda img{
 width: 90%;
 height: 90%;
 margin-left: 5px;
-border: #555;
+border: #fff;
 }
 .nav__parrafo{
-  background-color: #888;
+  background-color: #FFF;
   height: 100px;
   color: #FFF;
   margin-top: auto;
   width: 50%;
-  border: solid #555;
+  border: solid #fff;
 }
 .nav__parrafo .nav_parrafo-item{
   margin-top: auto;
-  color: #FFF;
+  color: #000;
   margin-left: 4px;
 }
 
 
 
 
+=======
+>>>>>>> Stashed changes
 .texto{
   text-align: center;
   size: 5px; ;
@@ -268,6 +547,59 @@ border: #555;
   text-align: center;
   margin: 10px;
 }
+<<<<<<< HEAD
+
+
+
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #FFF;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 4.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.imagetarget
+{
+  width:600px; 
+  height:400px;
+=======
 .parrafoNoti{
   width: 90%;
   height: 130px;
@@ -277,4 +609,5 @@ border: #555;
 }
 img {
   float: right;
+>>>>>>> 2170f114ddf253444e791e04ebbd2445f5a99ef5
 }
