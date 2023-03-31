@@ -56,17 +56,16 @@ display: none;
   display: none;
 }
 .nav_zombies{
-  background-color: #555;
+  background-color: #fff;
   width: 40%;
   height: 530px;
   margin-left: 15px;
-  border: solid #555;
   display: inline-block;
 }
 .nav_zombies h2{
-  background-color: #888;
+  background-color: #fff;
   margin-top: auto;
-  border: solid #333;
+
 }
 .nav__portada img
 {
@@ -74,7 +73,7 @@ display: none;
   width: 100%;
 }
 .nav__Banda{
-  background-color: #888;
+  background-color: #fff;
   width: 55%;
   float: right;
   height: 530px;
@@ -86,18 +85,15 @@ display: none;
   margin-left: 6px;
   height: 35%;
   width: 360px;
-  border: solid #333;
   margin-bottom: 4px;
   color: #fFF;
   
 }
 .nav__Video{
-  background-color: #F00;
   width: 360px;
   height: 270px;
   margin-top: auto;
   margin-left: 6px;
-  border: solid #333;
 }
 .nav__Video iframe{
   width: 100%;
@@ -108,16 +104,13 @@ display: none;
   height: 250px;
   display: inline-block;
   margin-left: 5px;
-  border: solid #555;
 }
 .nav__ParrafoLogo{
-  background-color: #222;
+  background-color: #fff;
   float: right;
   width: 50%;
   height: 250px;
-  border: solid #555;
-  font-family: 'Delicious Handrawn',cursive;
-  color: #fff;
+  color: #000;
   font-size: large;
   
 }
@@ -125,12 +118,10 @@ display: none;
   margin-left: 6px;
 }
 .nav__ParrafoBanda{
-  background-color: #444;
+  background-color: #fff;
   margin-top: 3px;
-  border: solid #555;
   height: 250px;
-  font-family: 'Delicious Handrawn',cursive;
-  color: #FFF;
+  color: #000;
   font-size: large;
 }
 .nav__zombies__parrafo{
