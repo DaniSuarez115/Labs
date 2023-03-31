@@ -152,10 +152,7 @@ display: none;
     .nav_zombies h2{
       display: none;
     }
-    .nav__portada img{
-      height: 100%;
-      width: 100%;
-    }
+    
     .nav__Banda{
       display: none;
     }
@@ -316,7 +313,7 @@ display: none;
   width: 100%;
   height: 100px;
 }
-.iconomov{
+.iconol{
   width: 10px;
   height: 10px;
 }
