@@ -450,7 +450,7 @@ h3{
 }
 .nav__ContainerBand{
   float: right;
-  background-color: #828282;
+  background-color: #FFF;
   width: 47%;
   height: 390px;
   margin-right: 3px;
@@ -521,7 +521,7 @@ margin-left: 5px;
 border: #fff;
 }
 .nav__parrafo{
-  background-color: #888;
+  background-color: #FFF;
   height: 100px;
   color: #FFF;
   margin-top: auto;
@@ -559,7 +559,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #FFF;
 }
 
 div.gallery img {
