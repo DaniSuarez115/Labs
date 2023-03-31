@@ -1,3 +1,4 @@
+/* barra navegacion */
 body {margin: 0;}
 ul.topnav {
     list-style-type: none;
@@ -55,22 +56,21 @@ display: none;
   display: none;
 }
 .nav_zombies{
-  background-color: #fff;
+  background-color: #555;
   width: 40%;
   height: 530px;
   margin-left: 15px;
-  border: solid #fff;
+  border: solid #555;
   display: inline-block;
 }
 .nav_zombies h2{
-  background-color: #fff;
+  background-color: #888;
   margin-top: auto;
-  border: solid #fff;
-  text-align: center;
+  border: solid #333;
 }
 
 .nav__Banda{
-  background-color: #fff;
+  background-color: #888;
   width: 55%;
   float: right;
   height: 530px;
@@ -82,18 +82,18 @@ display: none;
   margin-left: 6px;
   height: 35%;
   width: 360px;
-  border: solid #fff;
+  border: solid #333;
   margin-bottom: 4px;
-  color: #000;
+  color: #fFF;
   
 }
 .nav__Video{
-  background-color: #fff;
+  background-color: #F00;
   width: 360px;
   height: 270px;
   margin-top: auto;
   margin-left: 6px;
-  border: solid #fff;
+  border: solid #333;
 }
 .nav__Video iframe{
   width: 100%;
@@ -104,35 +104,37 @@ display: none;
   height: 250px;
   display: inline-block;
   margin-left: 5px;
-  border: solid #fff;
+  border: solid #555;
 }
 .nav__ParrafoLogo{
-  background-color: #fff;
+  background-color: #222;
   float: right;
   width: 50%;
   height: 250px;
-  border: solid #fff;
-  color: #000;
+  border: solid #555;
+  font-family: 'Delicious Handrawn',cursive;
+  color: #fff;
   font-size: large;
   
 }
 .nav__ParrafoLogo p{
   margin-left: 6px;
-  margin-top: 6px;
 }
 .nav__ParrafoBanda{
-  background-color: #FFF;
+  background-color: #444;
   margin-top: 3px;
-  border: solid #FFF;
+  border: solid #555;
   height: 250px;
-  color: #000;
+  font-family: 'Delicious Handrawn',cursive;
+  color: #FFF;
   font-size: large;
 }
 .nav__zombies__parrafo{
-  background-color: #FFF;
+  background-color: #222;
 }
 .nav__zombies__parrafo p{
-  font-size:15px;
+  font-family: 'Delicious Handrawn',cursive;
+  font-size: x-large;
   margin-left: 3px;
 }
 .nav__logo img{
@@ -144,29 +146,19 @@ display: none;
     ul.topnav li {float: none;}
   }
    @media(max-width:500px){
-    .nav__portada{
-      background-color: #428bca;
-      height: 380px;
-    }
-    .nav__portada img{
-      height: 100%;
-      width: 100%;
-    }
-    .nav_parrafo-item{
-      margin-top: auto;
-    }
     .nav_zombies{
       display: none;
     }
     .nav_zombies h2{
       display: none;
     }
-    .nav__zombies__parrafo
-    {
-      display: none;
-    }
+    
     .nav__Banda{
       display: none;
+    }
+    .nav__zombies__parrafo{
+      display: none;
+      
     }
     .nav__Video{
       display: none;
@@ -195,111 +187,8 @@ display: none;
     .nav__logo img{
       display: none;
     }
-.nav__ContainerParrafo
-{
-  color: #000;
-}
-    .nav__ContainerGame{
-      background-color: #FFF;
-      width: 48%;
-      height: 390px;
-      float: left;
-      margin-left: 3px;
-      text-align: center;
-      border: solid #FFF;
-      color: #fff;
-    }
-    .nav__ContainerBand{
-      float: right;
-      background-color: #FFF;
-      width: 47%;
-      height: 390px;
-      margin-right: 3px;
-      text-align: center;
-      color: #000;
-      border: solid #FFF;
-    }
-    .nav__ContainerDescription{
-      background-color: #FFF;
-      height: 265px;
-      margin-top: 3px;
-      float: left;
-      width: 99%;
-      margin-right: 3px;
-      margin-left: 3px;
-    }
-    .nav__ContainerVideo frame{
-      width: 100%;
-      height: 100%;
-    }
-    h2{
-      text-align: center;
-    }
-    .nav__ContainerParrafoGame{
-     
-      width: 90%;
-      height: 130px;
-      margin-left: 9px;
-      text-align: center;
-      border: solid #FFF;
-    }
-    .nav__ContainerImg{
-      height: 60%;
-      width: 90%;
-    }
-    .nav__ContainerImg img{
-      width: 100%;
-      height: 80%;
-      margin-left: 9px;
-      margin-top: 3px;
-    }
-    .nav__ContainerDescription-img{
-    width: 50%;
-    height: 60%;
-    border: solid #FFF;
-    background-color: #FFF;
-    margin-top: auto;
-    color: #FFF;
-    }
-    .nav__ContainerDescription-img img{
-      width: 100%;
-      height: 100%;
-      display: inline-block;
-      margin-top: auto;
-    }
-    .nav__ContainerParrafoBanda{
-     display: block;
-     float: left;
-     width: 70%;
-     height: 249px;
-     border: solid #FFF;
-     margin-top: -150px;
-     background-color: #040303;
-    
-    }
-    .nav__ContainerParrafoBanda img{
-    width: 100%;
-    height: 100%;
-    margin-left: 5px;
-    border: #FFF;
-    }
-    .nav__parrafo{
-      background-color: #FFF;
-      height: 100px;
-      color: #000;
-      margin-top: auto;
-      width: 50%;
-      border: solid #FFF;
-    }
-    .nav__parrafo .nav_parrafo-item{
-      margin-top: auto;
-      color: #0f0f0f;
-      margin-left: 4px;
-    }
-h3{
-  color: #000;
-}
 
+    
     .nav__ContainerDescription{
       display: block;
     }
@@ -308,17 +197,12 @@ h3{
     }
     .nav__ContainerImg{
       display: block;
-      font-size: 14PX;
-      color: #000;
     }
     .nav__ContainerGame {
     display: block;
     }
     .nav__ContainerBand{
       display: block;
-    }
-    .nav__logo{
-      display: none;
     }
    }
   .slide {
@@ -433,112 +317,6 @@ h3{
   width: 10px;
   height: 10px;
 }
-.nav__header{
-  background-color: #FFF;
-}
-<<<<<<< Updated upstream
-=======
-.nav__ContainerGame{
-  background-color: #aaaaaa;
-  width: 48%;
-  height: 390px;
-  float: left;
-  margin-left: 3px;
-  text-align: center;
-  border: solid #555;
-  color: #fff;
-}
-.nav__ContainerBand{
-  float: right;
-  background-color: #FFF;
-  width: 47%;
-  height: 390px;
-  margin-right: 3px;
-  text-align: center;
-  color: #fff;
-  border: solid #fff;
-}
-.nav__ContainerDescription{
-  background-color: #fff;
-  height: 270px;
-  margin-top: 3px;
-  float: left;
-  width: 99%;
-  margin-right: 3px;
-  margin-left: 3px;
-}
-.nav__ContainerVideo frame{
-  width: 100%;
-  height: 100%;
-}
-h2{
-  text-align: center;
-}
-.nav__ContainerParrafoGame{
- 
-  width: 90%;
-  height: 130px;
-  margin-left: 9px;
-  text-align: center;
-  border: solid #fff;
-}
-.nav__ContainerImg{
-  height: 60%;
-  width: 90%;
-}
-.nav__ContainerImg img{
-  width: 100%;
-  height: 80%;
-  margin-left: 9px;
-  margin-top: 3px;
-}
-.nav__ContainerDescription-img{
-width: 50%;
-height: 60%;
-border: solid #fff;
-background-color: #fff;
-margin-top: auto;
-color: #000;
-}
-.nav__ContainerDescription-img img{
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  margin-top: auto;
-}
-.nav__ContainerParrafoBanda{
- display: block;
- float: right;
- width: 47%;
- height: 249px;
- border: solid #fff;
- margin-top: -150px;
-}
-.nav__ContainerParrafoBanda img{
-width: 90%;
-height: 90%;
-margin-left: 5px;
-border: #fff;
-}
-.nav__parrafo{
-  background-color: #FFF;
-  height: 100px;
-  color: #FFF;
-  margin-top: auto;
-  width: 50%;
-  border: solid #fff;
-}
-.nav__parrafo .nav_parrafo-item{
-  margin-top: auto;
-  color: #000;
-  margin-left: 4px;
-}
-
-
-
-
-=======
->>>>>>> Stashed changes
 .texto{
   text-align: center;
   size: 5px; ;
@@ -546,8 +324,8 @@ border: #fff;
 .parrafo{
   text-align: center;
   margin: 10px;
+  padding: 6px;
 }
-<<<<<<< HEAD
 
 
 
@@ -559,7 +337,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #FFF;
+  border: 1px solid #777;
 }
 
 div.gallery img {
@@ -594,20 +372,107 @@ div.desc {
     width: 100%;
   }
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-.imagetarget
-{
+.imagetarget{
   width:600px; 
   height:400px;
-=======
-.parrafoNoti{
-  width: 90%;
-  height: 130px;
-  margin-left: 9px;
-  text-align: center;
-  border: solid #0e0591;
 }
-img {
+.imagenoticia{
+  width:100%; 
+  height:auto;
+}
+.footer
+{
+  background-color: rgba(105, 105, 105, 0.319);
+  text-align:left;
+  height: 35px;
+}
+.icon
+{
+  width: 30px;
+  height: auto;
+}
+
+/* formulario */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   float: right;
->>>>>>> 2170f114ddf253444e791e04ebbd2445f5a99ef5
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* bottom 
+}*/
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
