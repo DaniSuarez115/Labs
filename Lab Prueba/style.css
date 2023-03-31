@@ -116,14 +116,18 @@ display: none;
   
 }
 .nav__ParrafoLogo p{
-  margin-left: 6px;
+  margin-left: 19px;
+  margin-top: auto;
+  font-size: 17px;
 }
 .nav__ParrafoBanda{
   background-color: #fff;
   margin-top: 3px;
   height: 250px;
   color: #000;
-  font-size: large;
+  margin-left: 19px;
+  float: right;
+  font-size: 20px;
 }
 .nav__zombies__parrafo{
   background-color: #fff;
@@ -141,7 +145,7 @@ display: none;
     ul.topnav li.right, 
     ul.topnav li {float: none;}
   }
-   @media(max-width:500px){
+   @media(max-width:830px){
     .nav_zombies{
       display: none;
     }
