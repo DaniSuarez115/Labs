@@ -68,7 +68,11 @@ display: none;
   margin-top: auto;
   border: solid #333;
 }
-
+.nav__portada img
+{
+  height:100%;
+  width: 100%;
+}
 .nav__Banda{
   background-color: #888;
   width: 55%;
